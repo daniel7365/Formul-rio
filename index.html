@@ -26,30 +26,13 @@
             <label for="telefone">Telefone:</label>
             <input type="tel" id="telefone" name="telefone">
         </div>
-
-        <fieldset>
-            <legend>Endereço</legend>
-
-            <div>
-            <label for="rua">Rua:</label>
-            <input type="text" id="rua" name="rua">
-            </div>
-            <div>
-            <label for="numero">Número:</label>
-            <input type="text" id="numero" name="numero">
-            </div>  
-            <div>
-                <label for="bairro">Bairro</label>
-                <input type="text" id="bairro" name="bairro">
-            </div>
-            <label for="estado">Estado</label>
-            <select id="estadoSelect" name="estado">
-                <option value="PA" selected>Pará</option>
-                <option value="AM">Amazonas</option>
-                <option value="AP">Amapá</option>
-
+        <div>
+            <label for="cargo">Você é um Recrutador?</label>
+            <select id="cargo" name="cargo">
+                <option value="sim">Sim</option>
+                <option value="nao">Não</option>
             </select>
-        </fieldset>
+        </div>
         <button type="submit">Cadastrar</button>
     </div>
     </form>
