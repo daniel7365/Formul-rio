@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="color: #333333;">Formulário de Cadastro</h1>
+    <form>
+        <div>
+        <div>
+            <label for="nomeUsuario">Nome:</label>
+            <input type="text" id="nomeUsuario" name="nomeUsuario">
+        </div>
+        
+        <div>
+            <label for="nascimento">Data de nascimento</label>
+            <input type="date" id="nascimento" name="nascimento">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div>
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone">
+        </div>
+
+        <fieldset>
+            <legend>Endereço</legend>
+
+            <div>
+            <label for="rua">Rua:</label>
+            <input type="text" id="rua" name="rua">
+            </div>
+            <div>
+            <label for="numero">Número:</label>
+            <input type="text" id="numero" name="numero">
+            </div>  
+            <div>
+                <label for="bairro">Bairro</label>
+                <input type="text" id="bairro" name="bairro">
+            </div>
+            <label for="estado">Estado</label>
+            <select id="estadoSelect" name="estado">
+                <option value="PA" selected>Pará</option>
+                <option value="AM">Amazonas</option>
+                <option value="AP">Amapá</option>
+
+            </select>
+        </fieldset>
+        <button type="submit">Cadastrar</button>
+    </div>
+    </form>
+</body>
+</html>
